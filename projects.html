@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="assets/image/favicon-rmdev.ico">
+
+    <title>Wallace Espece│ Desenvolvedor Front-end</title>
+    <meta name="description"
+        content="RM Developer: Soluções digitais personalizadas para elevar sua presença online. Criação de sites, otimização de SEO, e-commerce e muito mais. Transforme suas ideias digitais em realidade com RM Developer.">
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/responsividade.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--AOS CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+    <!--EmailJS-->
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-80XVHS2NWN">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-80XVHS2NWN');
+    </script>
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '756368293168994');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=756368293168994&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+
+</head>
+
+<body>
+
+    <div class="loader"></div>
+
+    <!--Start HEADER-->
+    <header id="header" class="header">
+        <div class="container-header">
+            <div class="logo">
+                <a href="index.html">Wallace Espece <span class="destaque">│Dev.</span></a>
+            </div>
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div id="menu" class="menu-navegacao">
+                <i class="fa-solid fa-times close-icon"></i>
+                <ul class="lista-navegacao">
+                    <li><a href="index.html" class="fade-left">INÍCIO</a></li>
+                    <li><a href="about.html" class="fade-up">SOBRE</a></li>
+                    <li><a href="services.html" class="fade-right">SERVIÇOS</a></li>
+                    <li><a href="projects.html" class="fade-down">PROJETOS</a></li>
+                    <li><a href="contact.html" class="fade-left">CONTATO</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--End HEADER-->
+
+    <!--Start Section Projects-->
+    <section id="projects" class="projects">
+        <div class="container-projects">
+
+            <div class="headline" data-aos="fade-up" data-aos-delay="100">
+                <span class="destaque">Veja soluções reais</span>
+                <h1>Alguns projetos</h1>
+            </div>
+
+            <div class="content-projects">
+                <div class="cards-projects">
+
+                    <!--Card Projeto 1-->
+                    <div class="card-project" data-aos="zoom-in" data-aos-delay="150">
+                        <div class="img-project">
+                            <img src="assets/image/Macbook-Air- Iphone.png" alt="iphone">
+                        </div>
+
+                        <div class="content-card">
+                            <div class="text-project">
+                                <h2>Landing Page Apple</h2>
+                                <span>Iphone</span>
+                                <p>Landing page iPhone: design moderno e minimalista que combina estética premium e navegação intuitiva para destacar a inovação e elegância do produto.</p>
+                            </div>
+                            <div class="cta-project">
+                                <div class="tag-project">
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fab fa-css3-alt"></i>
+                                    <i class="fab fa-js"></i>
+                                </div>
+                                <div class="btn-project">
+                                    <a href="https://iphone-mu-green.vercel.app/" target="_blank">Acesse o site</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Card Projeto 1-->
+
+                    <!--Card Projeto 2-->
+                    <div class="card-project" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="img-project">
+                            <img src="assets/image/Macbook-Air- Android.png" alt="Android">
+                        </div>
+
+                        <div class="content-card">
+                            <div class="text-project">
+                                <h2>Android</h2>
+                                <span>Landing page Android</span>
+                                <p>Landing page Android: visual dinâmico e versátil, projetado para destacar a liberdade de personalização e a tecnologia inovadora que conectam pessoas e dispositivos.</p>
+                            </div>
+                            <div class="cta-project">
+                                <div class="tag-project">
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fab fa-css3-alt"></i>
+                                </div>
+                                <div class="btn-project">
+                                    <a href="https://android-theta.vercel.app/" target="_blank">Acesse o site</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Card Projeto 2-->
+
+                    <!--Card Projeto 3-->
+                    <div class="card-project" data-aos="zoom-in" data-aos-delay="250">
+                        <div class="img-project">
+                            <img src="assets/image/Macbook-Air- cafeteria.png" alt="cafeteria">
+                        </div>
+
+                        <div class="content-card">
+                            <div class="text-project">
+                                <h2>Cafeteria</h2>
+                                <span>Dev cafeteria</span>
+                                <p> Dev Cafeteria: aconchegante e convidativa, destacando aromas, sabores únicos e a experiência acolhedora de apreciar um bom café. Priorizando a navegação intuitiva e visual atrativo.</p>
+                            </div>
+                            <div class="cta-project">
+                                <div class="tag-project">
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fab fa-css3-alt"></i>
+                                </div>
+                                <div class="btn-project">
+                                    <a href="https://cafeteria-o3l4co2e1-wallaces-projects-ae7822f5.vercel.app/" target="_blank">Acesse o site</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Card Projeto 3-->
+
+                    
+        <div class="chevron-down">
+            <img src="assets/image/scroll-icon.png" alt="image">
+        </div>
+
+                    <!--Card Projeto 4-->
+                    <div class="card-project" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="img-project">
+                            <img src="assets/image/Macbook-Air- Linktree.png" alt="linktree">
+                        </div>
+
+                        <div class="content-card">
+                            <div class="text-project">
+                                <h2>Linktree</h2>
+                                <span>Linktree</span>
+                                <p>Linktree: simples e funcional, criada para reunir todos os links importantes em um só lugar. Com design limpo e responsivo, ela garante fácil navegação e acessibilidade para qualquer dispositivo. </p>
+                            </div>
+                            <div class="cta-project">
+                                <div class="tag-project">
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fab fa-css3-alt"></i>
+                                    
+                                </div>
+                                <div class="btn-project">
+                                    <a href="https://linktree-lovat.vercel.app/" target="_blank">Acesse o site</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Card Projeto 4-->
+
+                    <!--Card Projeto 5-->
+                    <div class="card-project" data-aos="zoom-in" data-aos-delay="350">
+                        <div class="img-project">
+                            <img src="assets/image/Macbook-Air- imc.png" alt="IMC">
+                        </div>
+
+                        <div class="content-card">
+                            <div class="text-project">
+                                <h2>Índice de massa corporal</h2>
+                                <span>IMC</span>
+                                <p>Cálculo de IMC: desenvolvido com funcionalidade e design intuitivo. Permite ao usuário inserir peso e altura para calcular rapidamente o Índice de Massa Corporal, exibindo resultados claros com orientações visuais sobre as faixas de saúde."</p>
+                            </div>
+                            <div class="cta-project">
+                                <div class="tag-project">
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fab fa-css3-alt"></i>
+                                    <i class="fab fa-js"></i>
+                                    
+                                </div>
+                                <div class="btn-project">
+                                    <a href="https://calculadora-imc-z6xi-n9xt4s6zy-wallaces-projects-ae7822f5.vercel.app/" target="_blank">Acesse o site</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Card Projeto 5-->
+
+                    <!--Card Projeto 6-->
+                    <div class="card-project" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="img-project">
+                            <img src="assets/image/Macbook-Air- (6).png" alt="Freelancer de Sucesso">
+                        </div>
+
+                        <div class="content-card">
+                            <div class="text-project">
+                                <h2>Áudio book Dom Casmurro</h2>
+                                <span>Landing Page</span>
+                                <p>Áudio book de Dom Casmurro: uma experiência imersiva que dá vida à obra-prima de Machado de Assis.</p>
+                            </div>
+                            <div class="cta-project">
+                                <div class="tag-project">
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fab fa-css3-alt"></i>
+                                    <i class="fab fa-js"></i>
+                                    
+                                </div>
+                                <div class="btn-project">
+                                    <a href="https://e-book-dom-casmurro.vercel.app/" target="_blank">Acesse o site</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Card Projeto 6-->
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--End Section Projects-->
+
+    <!--Footer-->
+    <footer class="footer">
+        <p>Todos os direitos reservados<br />Desenvolvido <span class="destaque">Ricardo Moura│Dev.</span></p>
+    </footer>
+    <!--End Footer-->
+
+    <!--Scripts-->
+    <script src="/assets/js/imageScroll.js"></script>
+    <script src="/assets/js/menu.js"></script>
+    <script src="/assets/js/headerAnimation.js"></script>
+    <script src="/assets/js/textAnimation.js"></script>
+    <script src="/assets/js/particles.js"></script>
+    <script src="assets/js/changePagesAnimation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
