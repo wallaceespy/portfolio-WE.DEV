@@ -33,13 +33,3 @@ O site foi construído utilizando uma variedade de tecnologias e ferramentas mod
 - **Otimizado para SEO**: Meta tags e descrições cuidadosamente escolhidas para melhorar a visibilidade do site em motores de busca.
 - **Alto Desempenho**: O código foi otimizado para carregamento rápido e desempenho eficiente.
 
-## Contribuições e Contato
-
-Estou aberto a colaborações e feedback. Se você tiver sugestões ou quiser discutir possíveis projetos, por favor, entre em contato comigo:
-
-- **Site**: [RM Developer](https://www.rmdeveloper.com.br)
-- **Email**: [contato@rmdeveloper.com.br](mailto:contato@rmdeveloper.com.br)
-- **LinkedIn**: [Ricardo Moura](https://www.linkedin.com/in/ricardomouradev/)
-- **WhatsApp**: [(47) 99216-4395](https://wa.me/5547992164395)
-
-Obrigado por visitar meu portfólio!
